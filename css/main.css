@@ -1,0 +1,47 @@
+ body{
+  background-color: #131A20;
+}
+
+.border-css{
+  border: 1px black solid;
+  border-radius: 4%;
+  background-color: #222933;
+}
+
+.select-input-style{
+  background-color: #222933;
+} 
+
+.style{
+  background-color:#222933 ;
+  color: bisque;
+}
+
+.modal-style{
+  background-color:#222933 ;
+  color: bisque;
+}
+
+.modal-summary-text{
+  margin: 0;
+  padding: 10px;
+  text-indent: 20px;
+}
+
+.bookmark-name{
+  margin-left: 100px;
+}
+
+.bookmark-btn-delete{
+  margin-left: 200px;
+}
+
+.bookmark-name{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  width: 250px;
+  background-color: #0D6EFC;
+  padding: 5px;
+  margin-left: 24px;
+}
