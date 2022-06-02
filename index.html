@@ -27,19 +27,17 @@
           </div>
         </form>
 
-        <div class="movies-list-box d-inline-block">
-          <ul class="js-kinolar-list list-unstyled mt-3 d-flex justify-content-between flex-wrap" style="width:820px;"></ul>
+        <div class="film-list-bookmark-box d-flex justify-content-between">
+          <div class="movies-list-box">
+            <ul class="js-kinolar-list list-unstyled mt-3 d-flex justify-content-between flex-wrap" style="width:820px;"></ul>
+          </div>
+  
+          <div class="movies-bookmark-box mt-4 card-textt position-fixed end-0">
+            <p class="text-white bookmark-name border-css text-center btn btn-primary rounded-3" style="width: 250px;">Movies Bookmar</p>
+            <ul class="js-bookmark-list d-flex flex-column list-unstyled m-0 p-0"></ul>
+          </div>
         </div>
-
-        <div class="movies-bookmark-box d-inline-block">
-          <p class="text-white bookmark-name border-css text-center btn btn-primary" style="width: 250px;">Movies Bookmar</p>
-          <ul class="js-bookmark-list d-flex flex-column list-unstyled m-0 p-0"></ul>
-        </div>
-
       </div>
-    
-   
-      
   </section>
 
   <template id="js-template">
@@ -70,10 +68,10 @@
 </template>
 
 <template class="bookmark-template">
-  <li class="js-bokkmark-item list-unstyled border-css ms-4 d-flex flex-column" style="width:250px ;">
+  <li class="js-bokkmark-item list-unstyled border-css ms-4 d-flex flex-column mb-1" style="width:250px ;">
     <strong class="text-white text-center">Film title</strong>
     <p class="js-bookmark-title text-white text-center"></p>
-    <button class="btn-primary bookmark-btn-delete btn" style="width: 35px; height: 35px;">X</button>
+    <button class="btn-primary bookmark-btn-delete btn mb-1" style="width: 35px; height: 35px;">X</button>
   </li>
 </template>
     
